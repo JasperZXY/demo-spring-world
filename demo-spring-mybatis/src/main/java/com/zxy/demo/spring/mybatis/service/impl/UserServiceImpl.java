@@ -17,7 +17,8 @@ public class UserServiceImpl implements UserService {
     public UserDO getById(Long id) {
         return userDAO.getById(id);
     }
+
     public UserDO getByIdV2(Long id) {
-        return userDAO.getById(id);
+        return userDAO.getByIdV2(id);
     }
 }

@@ -1,7 +1,9 @@
 # 说明
-本地安装的MySQL是8.x，所以数据库驱动用“com.mysql.cj.jdbc.Driver”，特别注意数据库连接要指定时区(serverTimezone)
+本地安装的MySQL是8.x，数据库驱动用“com.mysql.cj.jdbc.Driver”，特别注意数据库连接要指定时区(serverTimezone)
 
 数据库连接池用阿里的druid
+
+如果需要，可以自行修改config.properties中数据库部分的配置
 
 # SQL
 ```sql
