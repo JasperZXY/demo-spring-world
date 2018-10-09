@@ -7,4 +7,8 @@ public interface UserService {
     UserDO getById(Long id);
 
     UserDO getByIdV2(Long id);
+
+    UserDO getByIdV3(Long id);
+
+    UserDO getByIdV4(Long id);
 }

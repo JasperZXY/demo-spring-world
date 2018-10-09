@@ -25,5 +25,6 @@ insert into user(`name`, `birthday`) values
 
 # 参考文档
 - http://www.mybatis.org/spring/zh/index.html
+- http://www.mybatis.org/mybatis-3/zh/index.html
 - https://github.com/alibaba/druid/wiki
 
