@@ -8,7 +8,7 @@
         <version>1.0.0</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
-
+    <version>1.0.0</version>
     <artifactId>demo-spring-mybatis</artifactId>
 
     <properties>
@@ -21,7 +21,6 @@
         <dependency>
             <groupId>com.zxy.demo</groupId>
             <artifactId>demo-spring-bom</artifactId>
-            <version>1.0.0</version>
         </dependency>
 
         <!-- mysql连接 -->

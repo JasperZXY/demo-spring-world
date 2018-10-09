@@ -15,7 +15,6 @@
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <log.home>E:\\logs</log.home>
     </properties>
 
     <dependencyManagement>
@@ -27,6 +26,24 @@
             </dependency>
         </dependencies>
     </dependencyManagement>
+
+    <profiles>
+        <profile>
+            <id>mac</id>
+            <properties>
+                <log.home>/data/logs</log.home>
+            </properties>
+        </profile>
+        <profile>
+            <id>win</id>
+            <activation>
+                <activeByDefault>true</activeByDefault>
+            </activation>
+            <properties>
+                <log.home>E:\\logs</log.home>
+            </properties>
+        </profile>
+    </profiles>
 
     <build>
         <resources>
